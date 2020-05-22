@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <title>코닉세그 제메라</title>
+    <style>
+        * {
+            font-family: 'Black Han Sans', sans-serif;
+        }
+
+        .image {
+            margin: 20px auto;
+            width: 600px;
+        }
+
+        .wrapper {
+            margin: 10px auto;
+            width: 600px;
+        }
+
+        .info {
+            margin: 30px auto;
+            width: 600px;
+        }
+
+        .button {
+            margin: 20px auto;
+            width: 120px;
+        }
+    </style>
+    <script>
+        function order() {
+            alert('주문이 완료되었습니다.');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="image">
+        <img class="image" src="https://www.motorgraph.com/news/photo/202003/25236_79633_2954.jpg">
+    </div>
+    <div class="wrapper">
+        <h1>코닉세그 제메라</h1>
+        <h5>가격:1,500,000,000원/대</h5>
+        <p>
+        <h5>Dream come true</h5>
+        </p>
+    </div>
+    <div class="info">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">주문자이름</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">수량</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>-- 수량을 선택하세요 --</option>
+                <option value="1">1대</option>
+                <option value="2">2대</option>
+                <option value="3">3대</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">주소</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">전화번호</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+    </div>
+    <div class="button">
+        <button onclick="order()" type="button" class="btn btn-primary">주문하기</button>
+    </div>
+
+</body>
+
+</html>
