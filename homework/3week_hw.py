@@ -19,9 +19,5 @@ for music in musics:
     rank = music.select_one('td.number').text
     title = music.select_one('td.info > a.title.ellipsis').text
     name = music.select_one('td.info > a.artist.ellipsis').text
-    # doc = {
-    #     'rank': rank,
-    #     'title': title,
-    #     'name': name
-    # }
+    
     print(rank[0:2].strip(), title.strip(), name.strip())
